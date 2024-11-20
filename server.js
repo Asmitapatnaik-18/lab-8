@@ -8,7 +8,8 @@ const port = 3000;
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://zvl:zoe@cluster0.auq90.mongodb.net/activism?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://AP:ORANGE@cluster0.auq90.mongodb.net/');
+// mongoose.connect('mongodb+srv://zvl:zoe@cluster0.auq90.mongodb.net/activism?retryWrites=true&w=majority&appName=Cluster0');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

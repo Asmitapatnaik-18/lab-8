@@ -11,7 +11,8 @@ map.on('load', () => {
   // Add a GeoJSON source with data from the API
   map.addSource('mongoLayer', {
     type: 'geojson',
-    data: 'https://paths-to-power-two.herokuapp.com/api/geojson' // Replace with your API endpoint
+    // data: 'http://localhost:3000/api/geojson'
+    data: 'https://paths-to-power-opt-6dad11e3c360.herokuapp.com/api/geojson' // Replace with your API endpoint
   });
 
   // Add a layer to display MongoDB data with circle outline
